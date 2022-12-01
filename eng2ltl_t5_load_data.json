@@ -1,0 +1,32 @@
+{
+    "bert_model_name": "google/t5-v1_1-base",
+    "bert_cache_dir": "./bert_cache",
+    "train_file": "/content/drive/MyDrive/Colab Notebooks/Code/NLP_robotics/LTL_dataset/Data_para_gen_5_11_28_word_infix/combine_train_seq2tree_idea4.jsonl",
+    "dev_file": "/content/drive/MyDrive/Colab Notebooks/Code/NLP_robotics/LTL_dataset/Data_para_gen_5_11_28_word_infix/combine_dev_seq2tree_idea4.jsonl",
+    "test_file": "/content/drive/MyDrive/Colab Notebooks/Code/NLP_robotics/LTL_dataset/Data_para_gen_5_11_28_word_infix/combine_test_seq2tree_idea4.jsonl",
+    "application_file": "dataset/seq2tree_dataset/New_paraphrase_dataset/paraphrase1.jsonl",
+    "max_length": 128,
+    "max_generate_length": 128,
+    "log_path": "/content/drive/MyDrive/Colab Notebooks/Code/NLP_robotics/LTL_dataset/github/",
+    "output_path": "/content/drive/MyDrive/Colab Notebooks/Code/NLP_robotics/LTL_dataset/github/application_test",
+
+    "template_teacher_forcing":false,
+    "train_ltl2eng":false,
+    "train_eng2ltl":true,
+
+    "roundtrip": false,
+    "c_reward": false,
+    "r_reward": false,
+
+    "accumulate_step": 1,
+    "batch_size": 4,
+    "eval_batch_size": 4,
+    "pretrain_epoch": 13,
+    "max_epoch": 0,
+    "learning_rate": 1e-3,
+    "bert_learning_rate": 1e-5,
+    "weight_decay": 1e-3,
+    "bert_weight_decay": 1e-5,
+    "warmup_epoch": 5,
+    "gpu_device": 3
+  }
