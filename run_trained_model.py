@@ -42,7 +42,7 @@ test_sentence = [
 # Another way is to load the excel files, there are some example files in the dataset dir
 file_name = '/output_davinci_gen_ltl_long_8'
 df = pd.read_excel(home_path_nl2stl+'/dataset/'+file_name+'.xlsx')
-test_sentence = [df['paraphrased_logic_sentence'][i] for i in range(len(df))]
+test_sentence = [df['paraphrased_logic_sentence'][i] for i in range(len(df)) if df['Mark'][i]==1]
 '''
 
 home_path_output = home_path_nl2stl + '/application_test/'
@@ -68,7 +68,7 @@ for i, batch in enumerate(data_batch):
     outputs = model.predict_eng2ltl(batch, max_length=config.max_generate_length)
     pred_ltls = tokenizer.batch_decode(outputs['output_idxs'], skip_special_tokens=True)
     print(test_sentence[i])
-    print(pred_ltls)
+    print(pred_ltls[0])
     print('\n')
   else:
     break
