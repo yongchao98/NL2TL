@@ -1,0 +1,21 @@
+In case that ( prop_2 ) and ( prop_4 ) happens and continues to happen until ( prop_3 ) is detected , and ( prop_1 ) .
+At some point in the future ( prop_3 ) should happen and then ( prop_2 ) , or else ( prop_1 ) .
+If it is not the case that ( prop_2 ) , then ( prop_1 ) , or else ( prop_3 ) .
+If at some point ( prop_1 ) is equivalent to ( prop_4 ) and this scenario continues until at some other point ( prop_3 ) is detected , or else ( prop_2 ) .
+The scenario in which ( prop_1 ) and ( prop_4 ) or ( prop_3 ) , is equivalent to the scenario in which ( prop_2 ) .
+If ( prop_1 ) or ( prop_4 ) then ( prop_2 ) and also ( prop_3 ) .
+It is required that at a certain point within the next 386 to 448 time units the scenario in which ( prop_1 ) or ( prop_3 ) happens , then ( prop_2 ) .
+For each time instant ( prop_2 ) should imply ( prop_3 ) , or else ( prop_1 ) .
+If ( prop_4 ) is equivalent to ( prop_1 ) or ( prop_2 ) is true , then ( prop_3 ) .
+If at some point ( prop_3 ) is equivalent to ( prop_1 ) and this scenario continues until ( prop_4 ) is detected , then ( prop_2 ) .
+It is not the case that ( prop_1 ) and ( prop_3 ) or ( prop_2 ) .
+( prop_3 ) will not happen until at some point during the 109 to 379 time units ( prop_1 ) is detected , or ( prop_2 ) .
+It is not the case that ( prop_1 ) happens and continues to happen until at some point during the 90 to 333 time units ( prop_2 ) is detected , and ( prop_3 ) .
+The scenario in which ( prop_3 ) happens and continues to happen until at some point during the 330 to 559 time units that ( prop_1 ) is detected , is equivalent to the scenario in which ( prop_2 ) .
+For each time instant in the next 218 to 694 time units if ( prop_2 ) or ( prop_1 ) happens then ( prop_3 ) .
+For each time instant in the next 91 to 126 time units it is required that if ( prop_2 ) then ( prop_1 ) is equivalent to the scenario in which ( prop_3 ) .
+If ( prop_1 ) is equivalent to ( prop_3 ) and also ( prop_2 ) then the above scenario will hold until at some point during the 467 to 497 time units ( prop_4 ) is detected .
+It is not the case that ( prop_3 ) happens and continues to happen until ( prop_1 ) is detected , which is equivalent to ( prop_2 ) .
+If ( prop_3 ) then ( prop_1 ) , and also ( prop_4 ) , or else ( prop_2 ) .
+If it is not the case that ( prop_3 ) or ( prop_2 ) , then ( prop_1 ) .
+It is required that at a certain point within the next 290 to 585 time units the scenario in which ( prop_3 ) or ( prop_1 ) happens , and only then imply( prop_2 ) .
