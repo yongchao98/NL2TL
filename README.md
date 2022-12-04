@@ -78,6 +78,7 @@ In one part of Run.ipynb or run_trained_model.py, we have set three methods to m
 Contributors names and contact info
 
 Yongchao Chen (Harvard University, Massachusetts Institute of Technology, Laboratory of Information and Decision Systems)
+
 yongchaochen@fas.harvard.edu or ycchen98@mit.edu
 
 ## Version History
