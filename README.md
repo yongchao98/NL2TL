@@ -32,12 +32,24 @@ While STL is quite powerful, humans are more familiar with defining the tasks vi
 
 * The inference model should run on GPU, you can run the notebook file Run.ipynb on Google Colab, or run_trained_model.py on your own GPU environment.
 * As for setting the environment, here we install our environmrnt via Minoconda. You can first set up it via https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
-* 
+* Then it is time to install packages:
+```
+conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
+conda install pip
+conda install python
+conda install numpy
+conda install pandas
+pip install transformers
+pip install SentencePiece
+```
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* First download the whole directory with command
+```
+git clone git@github.com:yongchao98/NL2STL.git
+```
+* Then download the trained wieghts of our model in https://drive.google.com/file/d/19uiB_2XnnnVmDInaLbQeoZq25ghUdg4D/view
 
 ### Executing program
 
