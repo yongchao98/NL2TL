@@ -14,6 +14,8 @@ Output Signal temporal logic:
 ( ( ( prop_2 until [176,415] prop_1 ) and prop_3 ) equal prop_4 )
 ```
 
+The operations we used are U(until), F(finally), G(globally), |(or), &(and), ->(imply), <->(equal), negation. Also we allow the time interval definition, like U[0,5], F[12, 100], and G[30,150].
+
 ## Description
 
 Signal Temporal Logic (STL) is a formal language for specifying properties of signals. It is used to specify properties of continuous-time signals, such as signals from sensors or control systems, in a way that is precise and easy to understand.
