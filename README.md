@@ -90,7 +90,7 @@ yongchaochen@fas.harvard.edu or ycchen98@mit.edu
 
 ## License
 
-This project is open-sourced, and can only be commercially used under our permission.
+This corresponding paper of this project will be attached here in the next months. This project can only be commercially used under our permission.
 
 ## Acknowledgments
 
