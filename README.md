@@ -1,6 +1,18 @@
 # NL2STL
 
-This project is to transform human natural languages into Signal temporal logics (STL). 
+This project is to transform human natural languages into Signal temporal logics (STL). Here to enhance the generalizability, in each natural language the specific atomic proposition (AP) is represented as Prop_1, Prop_2, etc. In this way, the trained model can be easier to transfer into various specific domains. One inference example is as the following:
+
+Input natural language:
+
+```
+If ( prop_2 ) happens and continues to happen until at some point during the 176 to 415 time units that ( prop_1 ) , and also if ( prop_3 ) , then the scenario is equivalent to ( prop_4 ) .
+```
+
+Output Signal temporal logic:
+
+```
+( ( ( prop_2 until [176,415] prop_1 ) and prop_3 ) equal prop_4 )
+```
 
 ## Description
 
