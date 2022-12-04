@@ -64,13 +64,14 @@ Or use the shell submission
 ```
 sbatch run_fedcon_test.sh
 ```
+Be careful that you need to use GPU.
 
-## Help
+## Setting your own input natural language
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+In one part of Run.ipynb or run_trained_model.py, we have set three methods to modify the test_sentence.
+* The first is to directly change the sentence list
+* The second is to read from the excel file. We have put the example file example_excel_nl.xlsx into the NL2STL
+* The third is to read from txt file. We have put the example file example_excel_nl.txt into the NL2STL
 
 ## Authors
 
