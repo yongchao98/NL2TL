@@ -14,7 +14,7 @@ Output Signal temporal logic:
 ( ( ( prop_2 until [176,415] prop_1 ) and prop_3 ) equal prop_4 )
 ```
 
-The operations we used are U(until), F(finally), G(globally), |(or), &(and), ->(imply), <->(equal), negation. Also we allow the time interval definition, like U[0,5], F[12, 100], and G[30,150].
+The operations we used are U(until), F(finally), G(globally), |(or), &(and), ->(imply), <->(equal), negation. Also we allow the time interval definition, like U[0,5], F[12, 100], and G[30,150]. The following are the illustrations.
 ```
 prop_1 U[0,5] prop_2 : There exits one time point t between 0 and 5 timesteps from now, that prop_1 continues to happen until at this timestep, and prop_2 happens at this timestep.
 ```
@@ -23,6 +23,12 @@ F[12,100] prop_2 : There exits one time point t between 12 and 100 timesteps fro
 ```
 ```
 G[30,150] prop_2 : For all the time between 30 and 150 timesteps from now, that prop_2 always happens.
+```
+```
+prop_1 -> prop_2 : If prop_1 happens, then prop_2 also happens.
+```
+```
+prop_1 <-> prop_2: prop_1 happens if and only if prop_2 happens.
 ```
 
 ## Description
