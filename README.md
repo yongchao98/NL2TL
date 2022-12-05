@@ -15,6 +15,10 @@ Output Signal temporal logic:
 ```
 
 The operations we used are U(until), F(finally), G(globally), |(or), &(and), ->(imply), <->(equal), negation. Also we allow the time interval definition, like U[0,5], F[12, 100], and G[30,150].
+```
+prop_1 U[0,5] prop_2 : There exits one time point t between 0 and 5 timesteps from now, that prop_1 continues to happen until at this timestep, and prop_2 happens at this timestep.
+```
+
 
 ## Description
 
