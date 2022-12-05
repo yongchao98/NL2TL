@@ -19,10 +19,10 @@ The operations we used are U(until), F(finally), G(globally), |(or), &(and), ->(
 prop_1 U[0,5] prop_2 : There exits one time point t between 0 and 5 timesteps from now, that prop_1 continues to happen until at this timestep, and prop_2 happens at this timestep.
 ```
 ```
-F[0,5] prop_2 : There exits one time point t between 0 and 5 timesteps from now, that prop_2 happens at this timestep.
+F[12,100] prop_2 : There exits one time point t between 12 and 100 timesteps from now, that prop_2 happens at this timestep.
 ```
 ```
-G[0,5] prop_2 : For all the time between 0 and 5 timesteps from now, that prop_2 always happens.
+G[30,150] prop_2 : For all the time between 30 and 150 timesteps from now, that prop_2 always happens.
 ```
 
 ## Description
