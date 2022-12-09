@@ -1,6 +1,8 @@
 # NL2STL
 
-This project is to transform human natural languages into Signal temporal logics (STL). Here to enhance the generalizability, in each natural language the specific atomic proposition (AP) is represented as Prop_1, Prop_2, etc. In this way, the trained model can be easier to transfer into various specific domains. Also in the current work, the co-reference is not considered. Therefore, the Prop_i should only appear once in each sentence. One inference example is as the following:
+This project is to transform human natural languages into Signal temporal logics (STL). Here to enhance the generalizability, in each natural language the specific atomic proposition (AP) is represented as Prop_1, Prop_2, etc. In this way, the trained model can be easier to transfer into various specific domains. The APs refer to some specific specifications like grad the apple, or go to the room.
+
+Also in the current work, the co-reference is not considered. Therefore, each Prop_i should only appear once in each sentence. One inference example is as the following:
 
 Input natural language:
 
