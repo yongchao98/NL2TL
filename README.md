@@ -66,7 +66,7 @@ pip install SentencePiece
 
 * First download the whole directory with command
 ```
-git clone git@github.com:yongchao98/NL2STL.git
+git clone git@github.com:yongchao98/NL2TL.git
 ```
 * Then download the trained wieghts (e.g., checkpoint-72000) of our model in [https://drive.google.com/file/d/19uiB_2XnnnVmDInaLbQeoZq25ghUdg4D/view](https://drive.google.com/drive/folders/1ZfZoYovWoy5z247VXZWZBniNrCOONX4N?usp=sharing)
 * After downloading both the code and model weights, put the model weights model_state.pt into the directory eng2ltl_weights_11_28_word_infix
