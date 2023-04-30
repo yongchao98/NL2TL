@@ -3,7 +3,7 @@ Webpage: https://yongchao98.github.io/MIT-realm-NL2TL/
 
 Demo Website: http://realm-02.mit.edu:8444
 
-To access the Demo Website, please send email to ycchen98@mit.edu or yongchaochen@fas.harvard.edu
+To access the Demo Website, please send email to ycchen98@mit.edu or yongchaochen@fas.harvard.edu for password
 
 This project is to transform human natural languages into Signal temporal logics (STL). Here to enhance the generalizability, in each natural language the specific atomic proposition (AP) is represented as prop_1, prop_2, etc. In this way, the trained model can be easier to transfer into various specific domains. The APs refer to some specific specifications like grad the apple, or go to the room.
 
