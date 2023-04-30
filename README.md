@@ -1,5 +1,7 @@
 # NL2TL
-Webpage: http://realm-02.mit.edu:8444
+Webpage: http://realm-02.mit.edu:8444](https://yongchao98.github.io/MIT-realm-NL2TL/
+Demo Website: http://realm-02.mit.edu:8444
+To access the Demo Website, please send email to ycchen98@mit.edu or yongchaochen@fas.harvard.edu
 
 This project is to transform human natural languages into Signal temporal logics (STL). Here to enhance the generalizability, in each natural language the specific atomic proposition (AP) is represented as prop_1, prop_2, etc. In this way, the trained model can be easier to transfer into various specific domains. The APs refer to some specific specifications like grad the apple, or go to the room.
 
@@ -17,7 +19,7 @@ Output Signal temporal logic:
 ( ( ( prop_2 until [176,415] prop_1 ) and prop_3 ) equal prop_4 )
 ```
 
-The operations we used are U(until), F(finally), G(globally), |(or), &(and), ->(imply), <->(equal), negation. Also we allow the time interval definition, like U[0,5], F[12,100], and G[30,150]. The time numer right now is constrained into integer, and can use infinity to express all the time in the future, like [5,infinite]. The following are the illustrations. More NL-TL pair examples at https://drive.google.com/file/d/1f-wQ8AKInlTpXTYKwICRC0eZ-JKjAefh/view?usp=sharing
+The operations we used are U(until), F(finally), G(globally), |(or), &(and), ->(imply), <->(equal), negation. Also we allow the time interval definition, like U[0,5], F[12,100], and G[30,150]. The time numer right now is constrained into integer, and can use infinite to express all the time in the future, like [5,infinite]. The following are the illustrations. More NL-TL pair examples at https://drive.google.com/file/d/1f-wQ8AKInlTpXTYKwICRC0eZ-JKjAefh/view?usp=sharing
 ```
 prop_1 U[0,5] prop_2 : There exits one time point t between 0 and 5 timesteps from now, that prop_1 continues to happen until at this timestep, and prop_2 happens at this timestep.
 ```
