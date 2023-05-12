@@ -78,24 +78,8 @@ git clone git@github.com:yongchao98/NL2TL.git
 
 ### Executing program
 
-* We can run the code via both Run.ipynb and run_trained_model.py. Their functions are the same.
-* To run the notebook Run.ipynb, first move the whole NL2STL directory into the Google Drive, and then open the Run.ipynb and connect to GPU. Connect the notebook to your Google drive by clicking Mount Drive in the left panel. Then in the first cell of Run.ipynb, change the path to your NL2STL directory in your Google drive, so that the following codes are run in the NL2TL dir. You are all set to run now.
-* To run run_trained_model.py, you can directly use 
-```
-python run_trained_model.py
-```
-Or use the shell submission
-```
-sbatch run_fedcon_test.sh
-```
+* We can run the code via Run.ipynb. Their functions are the same.
 Be careful that you need to use GPU.
-
-## Setting your own input natural language
-
-In one part of Run.ipynb or run_trained_model.py, we have set three methods to modify the test_sentence.
-* The first is to directly change the sentence list
-* The second is to read from the excel file. We have put the example file example_excel_nl.xlsx into the NL2STL
-* The third is to read from txt file. We have put the example file example_excel_nl.txt into the NL2STL
 
 ## Authors
 
@@ -108,7 +92,7 @@ yongchaochen@fas.harvard.edu or ycchen98@mit.edu
 ## Version History
 
 * 0.1
-    * Initial Release on Dec 3
+    * Initial Release on May 12, 2023
 
 ## License
 
