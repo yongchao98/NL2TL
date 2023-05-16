@@ -1,0 +1,3 @@
+The src text are english langauge commands and tar texts are their respective LTL formuale. 
+The syn src and tar files are synthetically generated from the original src and tar files, by adding additional colors for which additional data collection was cost prohibitive.
+The soft labels are a subset of the hard labels, and are for language that makes references to the environment of the domain that is not reflected in the target language.
