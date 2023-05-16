@@ -76,10 +76,9 @@ git clone git@github.com:yongchao98/NL2TL.git
 * Then download the trained wieghts (e.g., checkpoint-62500) of our model in [https://drive.google.com/file/d/19uiB_2XnnnVmDInaLbQeoZq25ghUdg4D/view](https://drive.google.com/drive/folders/1ZfZoYovWoy5z247VXZWZBniNrCOONX4N?usp=sharing)
 * After downloading both the code and model weights, put the model weights checkpoint-62500 into your self-defined directory.
 
-### Executing program
+### Other codes and datasets
 
-* We can run the code via Run.ipynb. Their functions are the same.
-Be careful that you need to use GPU.
+* As for other codes and datasets published on github, please read the **Illustration of Code and Dataset.pdf** for specific explanation of their utilities.
 
 ## Authors
 
