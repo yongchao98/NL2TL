@@ -90,6 +90,16 @@ Yongchao Chen (Harvard University, Massachusetts Institute of Technology, Labora
 
 yongchaochen@fas.harvard.edu or ycchen98@mit.edu
 
+## Citation
+
+@article{chen2023nl2tl,
+  title={NL2TL: Transforming Natural Languages to Temporal Logics using Large Language Models},
+  author={Chen, Yongchao and Gandhi, Rujul and Zhang, Yang and Fan, Chuchu},
+  journal={arXiv preprint arXiv:2305.07766},
+  year={2023}
+}
+}
+
 ## Version History
 
 * 0.1
