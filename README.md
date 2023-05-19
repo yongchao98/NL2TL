@@ -7,7 +7,7 @@ Paper Link: https://arxiv.org/pdf/2305.07766.pdf
 
 Dataset Link: https://drive.google.com/drive/folders/10F-qyOhpqEi83o9ZojymqRPUtwzSOcfq?usp=sharing
 
-Model Link: 
+Model Link: https://drive.google.com/drive/folders/1vSaKOunMPA3uiOdx6IDbe-gmfREXQ9uO?usp=share_link
 
 To access the Demo Website, please send email to ycchen98@mit.edu or yongchaochen@fas.harvard.edu for **password**
 
