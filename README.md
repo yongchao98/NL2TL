@@ -113,5 +113,7 @@ yongchaochen@fas.harvard.edu or ycchen98@mit.edu
 
 This corresponding paper of this project will be attached here in the next months. This project can only be commercially used under our permission.
 
-## Acknowledgments
+## Recommended Work
+
+[AutoTAMP: Autoregressive Task and Motion Planning with LLMs as Translators and Checkers]([https://yongchao98.github.io/MIT-REALM-Multi-Robot/](https://arxiv.org/pdf/2306.06531.pdf)https://arxiv.org/pdf/2306.06531.pdf)
 
