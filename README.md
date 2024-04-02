@@ -1,4 +1,4 @@
-# NL2TL
+# NL2TL (EMNLP 2023)
 Webpage: https://yongchao98.github.io/MIT-realm-NL2TL/
 
 Demo Website: http://realm-02.mit.edu:8444
